@@ -24,6 +24,7 @@
                 <InputSelect id="type" @bind-Value="petModel.Type">
                     <option>Dog</option>
                     <option>Cat</option>
+                    <option>Bird</option>
                 </InputSelect>
             </div>
         </div>
@@ -48,6 +49,30 @@
                 </label>
             </div>
         </div>
+    </div>
+        <!-- Step 2.5 - pet's last location h2 element followed by a dropdown -->
+        <h2>Step 2.5: Where was your pet last seen?</h2>
+        <!-- Dropdown menu with 15 locations in Nonthaburi -->
+        <div class="form-group row justify-content-center">
+            <label for="petLocation" class="col-2 col-form-label">Pet Location</label>
+            <div class="col-4">
+                <InputSelect id="location" @bind-Value="petModel.Location">
+                    <option>Amphoe Bang Bua Thong</option>
+                    <option>Amphoe Bang Kruai</option>
+                    <option>Amphoe Bang Yai</option>
+                    <option>Amphoe Mueang Nonthaburi</option>
+                    <option>Amphoe Pak Kret</option>
+                    <option>Amphoe Sai Noi</option>
+                    <option>Amphoe Sai Yai</option>
+                    <option>Amphoe Bang Bua Thong</option>
+                    <option>Amphoe Bang Kruai</option>
+                    <option>Amphoe Bang Yai</option>
+                    <option>Amphoe Mueang Nonthaburi</option>
+                    <option>Amphoe Pak Kret</option>
+                    <option>Amphoe Sai Noi</option>
+                    <option>Amphoe Sai Yai</option>
+                </InputSelect>
+            </div>
         @if (isLoading)
         {
             <p>Uploading...</p>

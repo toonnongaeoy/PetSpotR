@@ -1,9 +1,6 @@
 # PetSpotR
 
-## 如果你需要中文请访问 [中文版本](./README_CN.md)
-
-## 🛠️ Here for a workshop? Go to the [workshop](workshop/README.md) folder to get started! 🛠️
-
+## This fork is created in Level Up with GitHub Codespaces and Copilot at Microsoft Thailand by me to learning about Github Codespaces. Please don't clone this cause this already have everything configured like in the [workshop](workshop/README.md) folder. But you can create one and test what I have done to this. #THDevDay #GitHubTH
 ---
 
 PetSpotR allows you to use advanced AI models to report and find lost pets. It is a sample application that uses Azure Machine Learning to train a model to detect pets in images.
